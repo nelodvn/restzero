@@ -13,7 +13,7 @@ mvn clean install
 
 mvn tomcat:run -Dmaven.tomcat.path=/
 
-* Enjoing
+* Enjoying
 
 curl http://localhost:8080/exemplo/teste
 
