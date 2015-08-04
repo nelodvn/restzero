@@ -6,12 +6,15 @@ This is a simple Restfull MVC Framework using Spring 4 and pure jdbc (no JPA her
 ### How do I get set up? ###
 
 * Building
+
 mvn clean install
 
 * Running
+
 mvn tomcat:run -Dmaven.tomcat.path=/
 
 * Enjoing
+
 curl http://localhost:8080/exemplo/teste
 
 And you are good to go.
