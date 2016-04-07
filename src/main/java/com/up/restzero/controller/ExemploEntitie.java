@@ -1,4 +1,4 @@
-package com.up.restzero.testes;
+package com.up.restzero.controller;
 
 public class ExemploEntitie {
 	private String param;
