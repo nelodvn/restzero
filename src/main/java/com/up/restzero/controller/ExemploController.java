@@ -19,10 +19,10 @@ public class ExemploController {
 	@Autowired
 	private ExemploService service;
 	
-	@RequestMapping(method = RequestMethod.GET, value = "entitie", produces={"application/json","application/xml"})
-	public @ResponseBody ExemploEntitie getExemplo(){
-		return service.getExemploEntitie();
-	}
+//	@RequestMapping(method = RequestMethod.GET, value = "entitie", produces={"application/json","application/xml"})
+//	public @ResponseBody ExemploEntitie getExemplo(){
+//		return service.getExemploEntitie();
+//	}
 	
 	@RequestMapping(method=RequestMethod.GET, value = "teste")
 	public @ResponseBody List<Entity> teste(){
