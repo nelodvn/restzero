@@ -2,8 +2,13 @@ package com.up.restzero.entity;
 
 import java.util.Date;
 
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+@javax.persistence.Entity
 public class Entity {
 	private String param;
+	@Id @GeneratedValue
 	private int id;
 	private Double numero;
 	private Date date;
