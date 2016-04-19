@@ -23,12 +23,6 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 /**
  * As configurações de banco de dados vão aqui.
  * 
- * Como o FW só trabalha com JDBC por enquanto, só configuramos o datasource,
- * que vai ser usado pelo JdbcTemplate no DAO.
- * 
- * Pode ser usado JNDI em vez de properties.
- * 
- * @author ndavini
  *
  */
 @Configuration
